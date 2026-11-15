@@ -78,15 +78,3 @@ os.environ["GEMINI_API_KEY"] = "YOUR_GEMINI_API_KEY_HERE"
 * **Citation Accuracy**: Every generated claim cites its source page (e.g., explaining $k$-NN voting from *Pages 35, 49, 50* and $k$-fold cross-validation from *Pages 266, 268*).
 * **Hallucination Prevention**: When tested with out-of-domain queries (e.g., *"What is the recipe for baking a chocolate cake?"*), the assistant strictly refuses with:
   > *"I cannot find the answer to this question in the provided textbook excerpts."*
-
----
-
-## 📁 Repository Structure
-
-```text
-├── RAG_ML_Knowledge_Assistant.ipynb   # Main Colab/Jupyter notebook with full pipeline
-├── README.md                          # Project documentation & usage guide
-└── intro-to-ml-book.pdf               # (Optional/Ignored) Source ML textbook PDF
-```
-
-*(Note: Remember to remove or mask your `GEMINI_API_KEY` before pushing the `.ipynb` file to a public GitHub repository!)*
